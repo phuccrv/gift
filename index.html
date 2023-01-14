@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>QUÀ TẾT TẶNG BÉ CỦA TUI</title>
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.1.0/css/all.css'>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    
+<!-- partial:index.partial.html -->
+<div class="rule">
+        <div class="rule__content">
+            <div class="rule__color color-1"></div>
+            <div class="rule__text">
+                Bé quay trúng: lì xì "500.000VNĐ" + "1 cái ôm, 2 cái thơm má". 
+            </div>
+            <div class="img-gift">
+                <img src="./giftmain-removebg-preview.png" alt="">
+            </div>
+        </div>
+        <div class="rule__content">
+            <div class="rule__color color-2"></div>
+            <div class="rule__text">
+                Bé quay trúng: lì xì "400.000VNĐ" + "2 hôn môi, 1 nòng cháy". 
+            </div>
+            <div class="img-gift">
+                <img src="./giftmain-removebg-preview.png" alt="">
+            </div>
+        </div>
+        <div class="rule__content">
+            <div class="rule__color color-3"></div>
+            <div class="rule__text">
+                Bé quay trúng: lì xì "300.000VNĐ" + "làm nệm của bé nguyên 1 ngày".
+            </div>
+            <div class="img-gift">
+                <img src="./giftmain-removebg-preview.png" alt="">
+            </div>
+        </div>
+        <div class="rule__content">
+            <div class="rule__color color-4"></div>
+            <div class="rule__text">
+                Bé quay trúng: lì xì "1.000.000VNĐ" + " thơm bé nhỏ 30p, 2 nòng cháy".
+            </div>
+            <div class="img-gift">
+                <img src="./giftmain-removebg-preview.png" alt="">
+            </div>
+        </div>
+        <div class="rule__content">
+            <div class="rule__color color-5"></div>
+            <div class="rule__text">
+                Bé quay trúng: lì xì "600.000VNĐ" + "dắt bé đi ăn nướng hàn quốc".
+            </div>
+            <div class="img-gift">
+                <img src="./giftmain-removebg-preview.png" alt="">
+            </div>
+        </div>
+        <div class="rule__content">
+            <div class="rule__color color-6"></div>
+            <div class="rule__text">
+                Bé quay trúng: lì xì "700.000VNĐ" + "đi chùa cầu may với anh".
+            </div>
+            <div class="img-gift">
+                <img src="./giftmain-removebg-preview.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="wheel">
+        <div class="wheel__inner">
+            <div class="wheel__sec">
+            </div>
+            <div class="wheel__sec">
+            </div>
+            <div class="wheel__sec">
+            </div>
+            <div class="wheel__sec">
+            </div>
+            <div class="wheel__sec">
+            </div>
+            <div class="wheel__sec">
+            </div>
+        </div>
+        <div class="wheel__arrow">
+            <a onclick="enableAutoplay()" type="button">
+            <button class="wheel__button">QUAY ĐI BÉ</button>
+        </div>
+    </div>
+    <div class="popup">
+        <div class="popup__container">
+            <div class="popup__emotion">
+                <i class="fas fa-meh"></i>
+            </div>
+            <p class="popup__note"></p>
+        </div>
+    </div>
+    <div class="congratulation">
+        <div class="congratulation__container">
+            <div class="congratulation__close">
+                <i class="fas fa-times"></i>
+            </div>
+            <div class="congratulation__emotion">
+                <img src="./bgcat-removebg-preview.png" alt="">
+            </div>
+            <p class="congratulation__note">CHÚC MỪNG BÉ </p>
+        </div>
+    </div>
+
+    <audio id="myAudio" autoplay>
+        <source src="./audio/nhac.mp3" type="audio/ogg">
+        <source src="./audio/nhac.mp3" type="audio/mpeg">
+    </audio>
+
+    <script>
+        var x = document.getElementById("myAudio");
+        function enableAutoplay() {
+            x.autoplay = true;
+            x.load();
+        }
+    </script>
+<!-- partial -->
+  <script src='https://code.jquery.com/jquery-3.3.1.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
